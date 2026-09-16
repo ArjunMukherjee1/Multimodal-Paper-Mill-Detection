@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 from train_models import (load_papers, by_split, select_threshold, image_scores,
-                           score_papers, DEVICE)
+                           score_papers, device)
 from transformers import BertForSequenceClassification, BertTokenizerFast
 import open_clip
 
